@@ -19,7 +19,6 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    border-radius: 10px;
     position: relative;
 }
 .icon-h{
@@ -55,7 +54,6 @@ button{
     background-color: var(--thecolor);
     height: 400px;
     position: relative;
-    border-radius: 10px;
     top: -16px;
 }
 h1{
@@ -87,4 +85,19 @@ input{
     padding: 0;
     height: 0px;
     top: 160px;
+}
+/* body2 */
+.body2{
+    background-color:var(--thewihtecolor);
+    display: flex;
+    align-items: baseline;
+    gap: 350px;
+    justify-content: center;
+    height: 1500px;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
 }
