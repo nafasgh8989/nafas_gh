@@ -1,0 +1,47 @@
+/* defining variables for color */
+:root{
+    --thebuttoncolor:#4c5fd5;
+    --thewihtecolor:#ffff;
+    --theblackcolor:#000;
+    --thecolor: #dadbf1;
+}
+/* header  */
+.header{
+  background-color:var(--theblackcolor);  
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+.icon-h{
+    width: 15px;
+    height: 15px;
+}
+.tozih-h{
+    color:var(--thewihtecolor);
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 300px;
+}
+button{
+    margin-right:10px ;
+    border-radius: 4px;
+    color: var(--thewihtecolor);
+    height: 30px;
+}
+.color{
+    background-color: var(--thebuttoncolor);
+    border: 1px solid var(--theblackcolor);
+    
+}
+.shafafiyat{
+    background-color: var(--theblackcolor);
+    color: var(--thewihtecolor);
+    border: 1px solid var(--thecolor);
+}
