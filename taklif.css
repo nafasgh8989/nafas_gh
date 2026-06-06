@@ -38,7 +38,6 @@ button{
 .color{
     background-color: var(--thebuttoncolor);
     border: 1px solid var(--theblackcolor);
-    
 }
 .shafafiyat{
     background-color: var(--theblackcolor);
