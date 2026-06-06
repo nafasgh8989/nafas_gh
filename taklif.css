@@ -5,16 +5,22 @@
     --theblackcolor:#000;
     --thecolor: #dadbf1;
 }
+/* body */
+body{
+    padding: 0;
+    margin: 0;
+}
 /* header  */
 .header{
-  background-color:var(--theblackcolor);  
-  width: 100%;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
+    background-color:var(--theblackcolor);  
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    border-radius: 15px;
+    border-radius: 10px;
+    position: relative;
 }
 .icon-h{
     width: 15px;
@@ -27,7 +33,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 300px;
+    margin-right: 1080px;
 }
 button{
     margin-right:10px ;
@@ -43,4 +49,42 @@ button{
     background-color: var(--theblackcolor);
     color: var(--thewihtecolor);
     border: 1px solid var(--thecolor);
+}
+/* body */
+.body{
+    background-color: var(--thecolor);
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    top: -16px;
+}
+h1{
+    color: var(--theblackcolor);
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    position: absolute;
+    top: 90px;
+    left: 650px;
+}
+input{
+    display: flex;
+    margin-left: 600px;
+    width: 330px;
+    height: 30px;
+    border: 1px solid var(--theblackcolor);
+    border-radius: 3px;
+    box-shadow: var(--theblackcolor) 0px 5px 10px -10px;
+    position: absolute;
+    top: 150px;
+}
+.flash{
+    color: var(--theblackcolor);
+    border: none;
+    background-color: var(--thewihtecolor);
+    position: absolute;
+    left: 900px;
+    padding: 0;
+    height: 0px;
+    top: 160px;
 }
