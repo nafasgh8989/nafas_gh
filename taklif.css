@@ -94,10 +94,65 @@ input{
     gap: 350px;
     justify-content: center;
     height: 1500px;
+    left: 300px;
+    position: relative;
 }
-h2{
-    margin: 0;
+.top{
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
-h3{
-    margin: 0;
+.space{
+    margin-top: 40px;
 }
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 700;
+}
+.i-r{
+    right: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    right: 750px;
+    top: 5px;
+}
+.i-l{
+    right: 1000px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    right: 1550px;
+    top: 5px;
+}
+.l-2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.l-3{
+    margin-top: 150px;
+}
+.chat{
+    margin-top: 115px;
+}
+.key{
+    margin-top:100px ;
+}
+.mony{
+    margin-top:100px ;
+}
+.learnmore-r{
+   background-color: var(--thewihtecolor);
+   border:none;
+   color: var(--thebuttoncolor);
+}
+.learnmore-l{
+    background-color: var(--thewihtecolor);
+    border:none;
+    color: var(--thebuttoncolor);
+}
+
