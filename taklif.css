@@ -22,8 +22,9 @@ body{
     position: relative;
 }
 .icon-h{
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
 .tozih-h{
     color:var(--thewihtecolor);
@@ -52,7 +53,7 @@ button{
 /* body */
 .body{
     background-color: var(--thecolor);
-    height: 400px;
+    height: 200px;
     position: relative;
     top: -16px;
 }
@@ -62,7 +63,7 @@ h1{
     justify-content: center;
     margin-top: 0;
     position: absolute;
-    top: 90px;
+    top: 60px;
     left: 650px;
 }
 input{
@@ -74,17 +75,17 @@ input{
     border-radius: 3px;
     box-shadow: var(--theblackcolor) 0px 5px 10px -10px;
     position: absolute;
-    top: 150px;
+    top: 100px;
 }
 .flash{
     color: var(--theblackcolor);
     border: none;
     background-color: var(--thewihtecolor);
     position: absolute;
-    left: 900px;
+    left: 910px;
     padding: 0;
     height: 0px;
-    top: 160px;
+    top: 110px;
 }
 /* body2 */
 .body2{
@@ -93,7 +94,7 @@ input{
     align-items: baseline;
     gap: 350px;
     justify-content: center;
-    height: 1500px;
+    height: 900px;
     left: 300px;
     position: relative;
 }
@@ -155,4 +156,33 @@ img{
     border:none;
     color: var(--thebuttoncolor);
 }
-
+/* footer */
+footer{
+    background-color: var(--theblackcolor);
+    width: 100%;
+    height: 400px;
+    position:relative;
+    display: flex;
+}
+ol{
+    margin-right: 100px;
+    margin-left: 60px;
+}
+li{
+    color: var(--thewihtecolor);
+    list-style-type: none;
+    display: flex;
+}
+h4{
+    margin-bottom: 0;
+}
+/* سمت راست footer  */
+.footer{
+    position: absolute;
+    left: 1140px;
+    top: 260px;
+}
+.icon-f{
+    width: 30px;
+    height: 30px;
+}
