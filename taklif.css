@@ -186,3 +186,40 @@ h4{
     width: 30px;
     height: 30px;
 }
+/* responsive */
+@media screen and (max-width:2560px) {
+.color{
+    margin-right: 600px;
+}
+.shafafiyat{
+    margin-right: 10px;
+}
+.tozih-h{
+    margin-right: 200px;
+}
+h1{
+    margin-left: 400px;
+}
+input{
+    margin-left: 1000px;
+}
+.flash{
+    margin-left: 400px;
+}
+.i-l{
+margin-right: 400px;
+}
+.i-r{
+    margin-right: 400px;
+}
+.body2{
+    margin-right: 300px;
+}
+.footer{
+    margin-left: 500px;
+}
+.a{
+    margin-right: 10px;
+    margin-left: 400px;
+}
+}
