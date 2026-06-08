@@ -1,0 +1,225 @@
+/* defining variables for color */
+:root{
+    --thebuttoncolor:#4c5fd5;
+    --thewihtecolor:#ffff;
+    --theblackcolor:#000;
+    --thecolor: #dadbf1;
+}
+/* body */
+body{
+    padding: 0;
+    margin: 0;
+}
+/* header  */
+.header{
+    background-color:var(--theblackcolor);  
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.icon-h{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.tozih-h{
+    color:var(--thewihtecolor);
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1080px;
+}
+button{
+    margin-right:10px ;
+    border-radius: 4px;
+    color: var(--thewihtecolor);
+    height: 30px;
+}
+.color{
+    background-color: var(--thebuttoncolor);
+    border: 1px solid var(--theblackcolor);
+}
+.shafafiyat{
+    background-color: var(--theblackcolor);
+    color: var(--thewihtecolor);
+    border: 1px solid var(--thecolor);
+}
+/* body */
+.body{
+    background-color: var(--thecolor);
+    height: 200px;
+    position: relative;
+    top: -16px;
+}
+h1{
+    color: var(--theblackcolor);
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    position: absolute;
+    top: 60px;
+    left: 650px;
+}
+input{
+    display: flex;
+    margin-left: 600px;
+    width: 330px;
+    height: 30px;
+    border: 1px solid var(--theblackcolor);
+    border-radius: 3px;
+    box-shadow: var(--theblackcolor) 0px 5px 10px -10px;
+    position: absolute;
+    top: 100px;
+}
+.flash{
+    color: var(--theblackcolor);
+    border: none;
+    background-color: var(--thewihtecolor);
+    position: absolute;
+    left: 910px;
+    padding: 0;
+    height: 0px;
+    top: 110px;
+}
+/* body2 */
+.body2{
+    background-color:var(--thewihtecolor);
+    display: flex;
+    align-items: baseline;
+    gap: 350px;
+    justify-content: center;
+    height: 900px;
+    left: 300px;
+    position: relative;
+}
+.top{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.space{
+    margin-top: 40px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 700;
+}
+.i-r{
+    right: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    right: 750px;
+    top: 5px;
+}
+.i-l{
+    right: 1000px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    right: 1550px;
+    top: 5px;
+}
+.l-2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.l-3{
+    margin-top: 150px;
+}
+.chat{
+    margin-top: 115px;
+}
+.key{
+    margin-top:100px ;
+}
+.mony{
+    margin-top:100px ;
+}
+.learnmore-r{
+   background-color: var(--thewihtecolor);
+   border:none;
+   color: var(--thebuttoncolor);
+}
+.learnmore-l{
+    background-color: var(--thewihtecolor);
+    border:none;
+    color: var(--thebuttoncolor);
+}
+/* footer */
+footer{
+    background-color: var(--theblackcolor);
+    width: 100%;
+    height: 400px;
+    position:relative;
+    display: flex;
+}
+ol{
+    margin-right: 100px;
+    margin-left: 60px;
+}
+li{
+    color: var(--thewihtecolor);
+    list-style-type: none;
+    display: flex;
+}
+h4{
+    margin-bottom: 0;
+}
+/* سمت راست footer  */
+.footer{
+    position: absolute;
+    left: 1140px;
+    top: 260px;
+}
+.icon-f{
+    width: 30px;
+    height: 30px;
+}
+/* responsive
+@media screen and (max-width:2560px) {
+.color{
+    margin-right: 600px;
+}
+.shafafiyat{
+    margin-right: 10px;
+}
+.tozih-h{
+    margin-right: 200px;
+}
+h1{
+    margin-left: 400px;
+}
+input{
+    margin-left: 1000px;
+}
+.flash{
+    margin-left: 400px;
+}
+.i-l{
+    margin-right: 400px;
+}
+.i-r{
+    margin-right: 400px;
+}
+.body2{
+    margin-right: 300px;
+}
+.footer{
+    margin-left: 500px;
+}
+.a{
+    margin-right: 10px;
+    margin-left: 400px;
+}
+} */
